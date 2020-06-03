@@ -8,8 +8,8 @@ end
 
 def list_dwarves(array)
   dwarves = ["Dopey", "Grumpy", "Bashful"]
-  when item < dwarves.count do 
   dwarves.each_with_index do |index, item|
+    when item < dwarves.length do
     item += 1 
     puts "#{item}. #{index}"
   end  
