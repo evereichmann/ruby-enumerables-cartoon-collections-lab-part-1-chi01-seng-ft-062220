@@ -8,7 +8,5 @@ end
 end
 
 def list_dwarves(array)
-  dwarves = ["1. Dopey", "2. Grumpy", "3. Bashful"]
-  dwarves.each do |dwarves|
-    puts "#{dwarves}"
+
 end
