@@ -7,5 +7,6 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-
+  dwarves = ["Dopey", "Grumpy", "Bashful"]
+  dwarves.each_with_index do |
 end
